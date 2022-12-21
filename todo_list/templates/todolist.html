@@ -1,1 +1,7 @@
 <h1>My Todo List</h1>
+
+<ul>
+  {% for i in all_items %}
+  <li>{{i.content}}</li>
+  {% endfor %}
+</ul>
